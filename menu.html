@@ -4,34 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="menu.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <script type="text/javascript" src="menu.js"></script>
 </head>
 <body>
     <div id="negbar">
+    <a href="baitapcuoikyweb.html">Trang chủ</a>
     <a href="#">Đăng Nhập</a>
     <a href="#">Đăng Ký</a>
     <a href="menu.html">Menu</a>
     <a href="">Đầu bếp</a>
     </div>
     <div id="selectbar">
-        <select>
-            <option  value="Chon mon an">Chọn loại món ăn</option>
-            <option>Phở</option>
-            <option>Bún đậu </option>
-            <option>Bánh mỳ</option>
+        
+        <select id="thechon">
+            <option  value="Chonmonan">Chọn loại món ăn</option>
+            <option value="Pho">Phở</option>
+            <option value="Bun">Bún </option>
+            <option value="Banhmy">Bánh mỳ</option>
         </select>
         <select>
             <option>Đầu bếp</option>
         </select>
+        <form>
+            <input type="button" value="Tìm kiếm" onclick="Timmonan()">
+        </form>
     </div>
+    <div id="Bun">
+        <div class="Themonan">
+            <img src="anhweb/Bun-Rieu-07.jpg">
+            <p>Bún riêu cua</p>
+            <p style="color:red;">30k</p>
+            <img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;">
+        </div>
+        <div class="Themonan">
+            <img src="/anhweb/bunrieuoc.jfif">
+            <p>Bún riêu ốc</p>
+            <p style="color:red;">35k</p>
+            <img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;">
+        </div>
+        <div class="Themonan">
+            <img src="anhweb/BUN-THIT-NUONG-FROM-SAI-GON.jpg">
+            <p>Bún thịt nướng</p>
+            <p style="color:red;">35k</p>
+            <img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;">
+        </div>
+        <div class="Themonan">
+            <img src="anhweb/bundau.jfif">
+            <p>Bún đậu</p>
+            <p style="color:red;">35k</p>
+            <img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;">
+        </div>
+        <div class="Themonan">
+            <img src="anhweb/OIP.jfif">
+            <p>Bún bò huế</p>
+            <p style="color:red;">35k</p>
+            <img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;">
+        </div>
+    </div>
+    <div  id="Pho" >
+        <div class="Themonan">
+            <img src="anhweb/VNO_Pho1.jpg">
+            <p>Phở bò</p>
+            <p style="color:red;">35k</p>
+            <img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;">
+        </div>
+        <div class="Themonan">
+            <img src="anhweb/phoga.jfif">
+            <p>Phở gà</p>
+            <p style="color:red;">35k</p>
+            <img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;">
+        </div>
+        <div class="Themonan">
+            <img src="anhweb/phochay.jpg">
+            <p>Phở chay</p>
+            <p style="color:red;">35k</p>
+            <img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;">
+        </div>
+        <div class="Themonan">
+            <img src="anhweb/phokho.jpg">
+            <p>Phở khô</p>
+            <p style="color:red;">35k</p>
+            <img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;">
+        </div>
+    </div>
+    <div class="Themonan" id="Banhmy" >day la banh my</div>
 </body>
 </html>
