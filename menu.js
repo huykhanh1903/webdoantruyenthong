@@ -25,3 +25,9 @@ function Timmonan()
     }
 }
 }
+//Them tim cho mon an trong menu
+function doiso()
+{
+    var s = parseInt(document.getElementById("daylaso").value);
+    document.getElementById("daylaso").innerHTML=s;
+}
