@@ -57,6 +57,11 @@ function Timmonan()
         tamgia2[i].style.display = "block";
     }
     }
+    else
+    {
+        tamgia2[i].style.display = "block";
+        tamgia1[i].style.display = "block";
+    }
 }
 }
 
