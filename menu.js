@@ -66,4 +66,9 @@ function doiso()
     var s = parseInt(document.getElementById("daylaso").value);
     document.getElementById("daylaso").innerHTML="1201";
 }
+function doiso2()
+{
+    var s = parseInt(document.getElementById("daylaso").value);
+    document.getElementById("daylaso").innerHTML="1200";
+}
 //kiem tra menu theo gia tien
